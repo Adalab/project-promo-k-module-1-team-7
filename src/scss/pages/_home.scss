@@ -1,0 +1,88 @@
+.qualities {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  background-color: rgba(184, 184, 185, 0.2);
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  height: auto;
+  min-height: 309px;
+}
+.qualities__strenghts,
+.qualities__weaknesses {
+  width: 50%;
+  /* margin: auto; */
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #54585a;
+  font-family: $fontFamilyOpen;
+  box-sizing: border-box;
+}
+.triangle {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 0;
+  left: 0;
+  margin-left: 48%;
+  background-color: white;
+  top: -15px;
+}
+.qualities__weaknesses {
+  margin-top: 45px;
+  margin-right: 11.5%;
+  margin-left: 3.75%;
+}
+.qualities__strenghts {
+  margin-top: 45px;
+  margin-right: 3.75%;
+  margin-left: 11.5%;
+}
+
+.qualities__strenghtsTitle,
+.qualities__weaknessesTitle {
+  font-family: $fontFamilyRubik;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 45px;
+  letter-spacing: normal;
+  text-align: center;
+  color: $mainColor;
+}
+
+.teamdesc {
+  width: 100%;
+  color: #ffffff;
+  margin-top: 45px;
+}
+
+.titleteamdesc {
+  height: 45px;
+  font-family: $fontFamilyRubik, sans-serif;
+  color: $mainColor;
+  font-size: 24px;
+  line-height: 45px;
+  text-align: center;
+  margin: auto;
+  font-weight: 500;
+  letter-spacing: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+.mainteamdesc {
+  width: 50%;
+  opacity: 0.67;
+  font-family: $fontFamilyOpen;
+  font-size: 16px;
+  line-height: 24px;
+  color: #54585a;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 60px;
+  text-align: center;
+}
