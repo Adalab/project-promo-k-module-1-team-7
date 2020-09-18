@@ -34,6 +34,12 @@
   text-align: right;
   margin-right: 10%;
   margin-left: 25%;
+  @media all and (max-width: 1199px) and (min-width: 768px) {
+    width: 88.5%;
+    margin-left: 5.73%;
+    margin-right: 5.73%;
+    margin-bottom: 67px;
+  }
 }
 
 .comp-4 {
@@ -43,6 +49,12 @@
 
   margin-right: 10%;
   margin-left: 25%;
+  @media all and (max-width: 1199px) and (min-width: 768px) {
+    width: 88.5%;
+    margin-left: 5.73%;
+    margin-right: 5.73%;
+    margin-bottom: 67px;
+  }
 }
 .components {
   margin-top: 41px;
