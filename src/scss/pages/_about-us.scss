@@ -21,6 +21,12 @@
   justify-content: space-between;
   margin-left: 10%;
   margin-bottom: 60px;
+  @media all and (max-width: 1199px) and (min-width: 768px) {
+    width: 88.5%;
+    margin-left: 5.73%;
+    margin-right: 5.73%;
+    margin-bottom: 67px;
+  }
 }
 
 .comp-2 {
@@ -59,16 +65,31 @@
   width: 278px;
   border-radius: 5.4px;
   border: solid 6.7px rgba(0, 0, 0, 0.08);
+  @media all and (max-width: 1199px) and (min-width: 768px) {
+    width: 205px;
+  }
 }
 
 .contimg > img {
   height: 278px;
   object-fit: contain;
+  @media all and (max-width: 1199px) and (min-width: 768px) {
+    width: 205px;
+    height: 205px;
+    object-fit: contain;
+    margin-right: 4%;
+  }
 }
 
 .contimg-2 > img {
   height: 278px;
   object-fit: contain;
+  @media all and (max-width: 1199px) and (min-width: 768px) {
+    width: 205px;
+    height: 205px;
+    object-fit: contain;
+    margin-left: 4%;
+  }
 }
 
 .tarjeta {
@@ -76,8 +97,11 @@
   margin-right: 20px;
   display: flex;
   flex-direction: column;
+  @media all and (max-width: 1199px) and (min-width: 768px) {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
-
 .rrss {
   list-style-type: none;
   display: flex;
@@ -142,4 +166,7 @@
   letter-spacing: normal;
   font-stretch: normal;
   font-weight: 500;
+  @media all and (max-width: 1199px) and (min-width: 768px) {
+    line-height: 45px;
+  }
 }

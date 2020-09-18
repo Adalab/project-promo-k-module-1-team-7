@@ -1,8 +1,19 @@
+.container {
+  height: 550px;
+  @media all and (max-width: 1199px) and (min-width: 768px) {
+    height: 421px;
+    position: relative;
+  }
+}
+
 .imghero,
 .imagenhero {
   width: 100%;
   height: 550px;
   object-fit: cover;
+  @media all and (max-width: 1199px) and (min-width: 768px) {
+    height: 421px;
+  }
 }
 .claim {
   width: 574px;
@@ -19,4 +30,11 @@
   margin: 0px;
   padding: 15px 30px;
   box-sizing: border-box;
+  @media all and (max-width: 1199px) and (min-width: 768px) {
+    width: 441px;
+    height: 80px;
+    position: absolute;
+    left: 6%;
+    bottom: 0px;
+  }
 }

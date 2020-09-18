@@ -8,6 +8,11 @@
   position: relative;
   height: auto;
   min-height: 309px;
+  @media all and (max-width: 1199px) and (min-width: 768px) {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
 }
 .qualities__strenghts,
 .qualities__weaknesses {
@@ -19,6 +24,13 @@
   color: #54585a;
   font-family: $fontFamilyOpen;
   box-sizing: border-box;
+  @media all and (max-width: 1199px) and (min-width: 768px) {
+    width: 50%;
+    /* margin: auto; */
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+  }
 }
 .triangle {
   width: 30px;
@@ -35,11 +47,22 @@
   margin-top: 45px;
   margin-right: 11.5%;
   margin-left: 3.75%;
+  @media all and (max-width: 1199px) and (min-width: 768px) {
+    margin-top: 45px;
+    margin-left: 3.75%;
+    margin-right: 3.75%;
+  }
 }
 .qualities__strenghts {
   margin-top: 45px;
   margin-right: 3.75%;
   margin-left: 11.5%;
+  @media all and (max-width: 1199px) and (min-width: 768px) {
+    margin-top: 45px;
+    margin-bottom: 60px;
+    margin-left: 3.75%;
+    margin-right: 3.75%;
+  }
 }
 
 .qualities__strenghtsTitle,
@@ -85,4 +108,7 @@
   margin-top: 15px;
   margin-bottom: 60px;
   text-align: center;
+  @media all and (max-width: 1199px) and (min-width: 768px) {
+    width: 88.28%;
+  }
 }
