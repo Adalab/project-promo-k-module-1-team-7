@@ -65,6 +65,13 @@
   height: 278px;
   object-fit: contain;
   margin-right: 3.75%;
+  @media all and (max-width: 767px) {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    align-self: center;
+    margin-right: 0;
+  }
 }
 
 .contimg-2 {
@@ -72,7 +79,15 @@
   height: 278px;
   object-fit: contain;
   margin-left: 3.75%;
+  @media all and (max-width: 767px) {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    align-self: center;
+    margin-left: 0px;
+  }
 }
+
 .img {
   width: 278px;
   border-radius: 5.4px;
@@ -91,6 +106,10 @@
     object-fit: contain;
     margin-right: 4%;
   }
+  @media all and (max-width: 767px) {
+    height: 180px;
+    width: 180px;
+  }
 }
 
 .contimg-2 > img {
@@ -102,6 +121,10 @@
     object-fit: contain;
     margin-left: 4%;
   }
+  @media all and (max-width: 767px) {
+    height: 180px;
+    width: 180px;
+  }
 }
 
 .tarjeta {
@@ -112,6 +135,14 @@
   @media all and (max-width: 1199px) and (min-width: 768px) {
     margin-left: 0;
     margin-right: 0;
+  }
+  @media all and (max-width: 767px) {
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
   }
 }
 .rrss {
@@ -180,5 +211,31 @@
   font-weight: 500;
   @media all and (max-width: 1199px) and (min-width: 768px) {
     line-height: 45px;
+  }
+  @media all and (max-width: 767px) {
+    line-height: 45px;
+  }
+}
+
+.comp,
+.comp-2 {
+  @media all and (max-width: 767px) {
+    width: auto;
+    box-sizing: border-box;
+    margin-left: 4.68%;
+    margin-right: 4.68%;
+    margin-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.rrss-2,
+.rrss {
+  @media all and (max-width: 767px) {
+    align-self: center;
+    margin-top: 15px;
   }
 }
