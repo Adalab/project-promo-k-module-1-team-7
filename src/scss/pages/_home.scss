@@ -101,6 +101,9 @@
   width: 100%;
   color: #ffffff;
   margin-top: 45px;
+  @media all and (max-width: 767px) {
+    margin-top: 76px;
+  }
 }
 
 .titleteamdesc {
@@ -129,5 +132,8 @@
   text-align: center;
   @media all and (max-width: 1199px) and (min-width: 768px) {
     width: 88.28%;
+  }
+  @media all and (max-width: 767px) {
+    width: 90%;
   }
 }
