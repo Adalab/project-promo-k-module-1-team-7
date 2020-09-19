@@ -18,6 +18,14 @@ body {
   z-index: 999;
   box-sizing: border-box;
   height: 60px;
+  @media all and (max-width: 767px) {
+    display: block;
+    top: 0px;
+    width: 100vw;
+    z-index: 999;
+    box-sizing: border-box;
+    height: 105px;
+  }
 }
 
 .title {
@@ -35,6 +43,15 @@ body {
   @media all and (max-width: 1199px) and (min-width: 768px) {
     margin-left: 5.85%;
   }
+  @media all and (max-width: 767px) {
+    width: 160px;
+    height: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
 }
 
 .list {
@@ -49,6 +66,14 @@ body {
   font-weight: 500;
   font-size: 15px;
   padding-left: 0px;
+  @media all and (max-width: 767px) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.9;
+  }
 }
 
 .menu {
@@ -57,11 +82,23 @@ body {
   @media all and (max-width: 1199px) and (min-width: 768px) {
     margin-right: 5.85%;
   }
+  @media all and (max-width: 767px) {
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 8px;
+    background-color: #14d9c4;
+    box-sizing: border-box;
+    margin-right: 0px;
+    height: 45px;
+  }
 }
 
 .link.link1,
 .link.link2 {
   margin-right: 18px;
+  @media all and (max-width: 767px) {
+    margin-right: 0px;
+  }
 }
 .text-link {
   color: white;
