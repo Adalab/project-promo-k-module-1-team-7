@@ -26,41 +26,6 @@
 }
 
 @media all and (max-width: 767px) {
-  .hero {
-    width: 100vw;
-    height: 421px;
-  }
-
-  .container {
-    height: 421px;
-  }
-
-  .imghero,
-  .imagenhero {
-    width: 100%;
-    height: 421px;
-    object-fit: cover;
-    object-position: 63% 20%;
-  }
-  .claim {
-    width: 90%;
-    height: 80px;
-    position: relative;
-    left: 5%;
-    right: 5%;
-    bottom: 34px;
-    margin: 0px;
-    padding: 15px;
-    align-items: center;
-    font-size: 30px;
-    box-sizing: border-box;
-    margin-bottom: 45px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    opacity: 1;
-  }
-
   .contimg {
     width: 180px;
     height: 180px;
