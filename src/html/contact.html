@@ -4,7 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
   <body>
@@ -44,13 +55,16 @@
           datos y nos pondremos en contacto antes de que rompa la ola!!
         </p>
         <small class="Contact__divText--small"
-          >Todos los campos marcados con * son obligatorios.</small
+          >Todos los campos marcados con <label class="star">*</label> son
+          obligatorios.</small
         >
       </div>
 
       <form class="Contact__form" action="/signup" method="POST">
         <div class="Contact__form--Name">
-          <label class="fullName" for="FullName">Nombre Completo</label>
+          <label class="fullName" for="FullName"
+            >Nombre Completo<label class="star">*</label></label
+          >
           <input
             class="name"
             type="text"
@@ -61,7 +75,9 @@
           />
         </div>
         <div class="Contact__form--email">
-          <label class="mail" for="emailadress">Email</label>
+          <label class="mail" for="emailadress"
+            >Email<label class="star">*</label></label
+          >
           <input
             class="adress"
             type="email"
@@ -82,8 +98,11 @@
           />
         </div>
         <div class="Contact__form--message">
-          <label class="message" for="Mensaje">Mensaje</label>
+          <label class="message" for="Mensaje"
+            >Mensaje<label class="star">*</label></label
+          >
           <textarea
+            class="needs"
             id="comments"
             name="comments"
             rows="10"
