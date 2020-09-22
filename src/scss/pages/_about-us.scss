@@ -31,9 +31,9 @@
 
 .comp {
   width: 63.5%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 1;
   margin-left: 10%;
   margin-bottom: 60px;
 
@@ -49,19 +49,20 @@
     margin-left: 4.68%;
     margin-right: 4.68%;
     margin-bottom: 45px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
+    grid-template-columns: 1;
+    grid-template-rows: 2;
   }
 }
 
 .comp-2,
 .comp-4 {
-  flex-direction: row-reverse;
   text-align: right;
   margin-right: 10%;
   margin-left: 25%;
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 1;
   @media all and (max-width: 1199px) and (min-width: 768px) {
     width: 88.5%;
     margin-left: 5.73%;
@@ -74,30 +75,35 @@
     margin-left: 4.68%;
     margin-right: 4.68%;
     margin-bottom: 45px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
+    grid-template-columns: 1;
+    grid-template-rows: 2;
   }
 }
 
 .contimg {
   margin-right: 3.75%;
+  grid-column: 1/2;
+  grid-row: 1/2;
   @media all and (max-width: 1199px) and (min-width: 768px) {
-    margin-right: 4%;
+    margin-right: 6%;
   }
   @media all and (max-width: 767px) {
     margin-right: 0px;
+    grid-row: 1/2;
   }
 }
 
 .contimg-2 {
   margin-left: 3.75%;
+  grid-column: 2/3;
+  grid-row: 1/2;
   @media all and (max-width: 1199px) and (min-width: 768px) {
-    margin-left: 4%;
+    margin-left: 6%;
   }
   @media all and (max-width: 767px) {
     margin-left: 0px;
+    grid-row: 1/2;
   }
 }
 
@@ -107,6 +113,7 @@
   width: 278;
   border-radius: 5.4px;
   border: solid 6.7px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
   @media all and (max-width: 1199px) and (min-width: 768px) {
     width: 205px;
     height: 205px;
@@ -120,8 +127,11 @@
 .tarjeta {
   margin-left: 20px;
   margin-right: 20px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 3;
+  grid-column: 2/3;
+  grid-row: 1/2;
   @media all and (max-width: 1199px) and (min-width: 768px) {
     margin-left: 0;
     margin-right: 0;
@@ -129,10 +139,32 @@
   @media all and (max-width: 767px) {
     margin-left: 0;
     margin-right: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    grid-column: 1/2;
+    grid-row: 2/3;
     margin-top: 15px;
+  }
+}
+
+.tarjeta-2 {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 3;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  position: relative;
+  height: auto;
+  @media all and (max-width: 1199px) and (min-width: 768px) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  @media all and (max-width: 767px) {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 15px;
+    grid-column: 1/2;
+    grid-row: 2/3;
   }
 }
 
@@ -162,22 +194,25 @@
 }
 
 .rrss-2 {
-  align-self: flex-end;
+  position: absolute;
+  right: 0;
+  bottom: -15px;
 }
+
 .rrss,
 .rrss-2 {
   list-style-type: none;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1;
   width: 124px;
   height: 30px;
   padding: 0px;
   font-size: 16px;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: nowrap;
   @media all and (max-width: 767px) {
-    align-self: center;
     margin-top: 15px;
+    justify-self: center;
+    position: static;
   }
 }
 
