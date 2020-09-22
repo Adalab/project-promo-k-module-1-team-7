@@ -90,7 +90,6 @@
   }
   @media all and (max-width: 767px) {
     margin-right: 0px;
-    grid-row: 1/2;
   }
 }
 
@@ -103,7 +102,7 @@
   }
   @media all and (max-width: 767px) {
     margin-left: 0px;
-    grid-row: 1/2;
+    grid-column: 1/2;
   }
 }
 
