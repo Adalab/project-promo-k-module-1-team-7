@@ -21,7 +21,7 @@
   align-items: center;
 }
 .Contact__divText--title {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 24px;
   line-height: 45px;
   margin-top: 30px;
@@ -38,7 +38,7 @@
   margin-left: 4.68%;
   margin-right: 4.68%;
   margin-top: 15px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: #54585a;
   line-height: 24px;
@@ -46,7 +46,7 @@
 }
 .Contact__divText--small {
   align-items: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   color: #54585a;
   line-height: 24px;
@@ -123,7 +123,7 @@
   width: 131px;
   height: 19px;
   margin-bottom: 7px;
-  margin-top: 7px;
+  margin-top: 13px;
   margin-left: 4.6%;
   margin-right: 54.37%;
   text-transform: capitalize;
@@ -148,7 +148,7 @@
   width: 131px;
   height: 19px;
   margin-bottom: 7px;
-  margin-top: 7px;
+  margin-top: 13px;
   margin-left: 4.6%;
   margin-right: 54.37%;
   text-transform: capitalize;
@@ -168,6 +168,7 @@
 .Contact__form--buttom {
   width: 90.6%;
   height: 45px;
+  text-transform: uppercase;
   line-height: 45px;
   margin-left: 4.68%;
   margin-right: 4.68%;
@@ -176,10 +177,37 @@
   border-radius: 4px;
   display: block;
   background-color: #099d8d;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: white;
 }
 .star {
   color: #14d9c4;
 }
+
+@media all and (min-width: 768px) {
+  .Contact {
+    width: auto;
+    height: 768px;
+    margin-left: 21.22%;
+    margin-right: 21.22%;
+  }
+  .Contact__divText {
+    height: 210px;
+  }
+
+  .Contact__divText--text {
+    width: auto;
+  }
+
+  .needs {
+    margin-bottom: 0px;
+  }
+  .Contact__form--buttom {
+    width: 206px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 0px;
+    margin-left: 49.28%;
+  }
+ 
