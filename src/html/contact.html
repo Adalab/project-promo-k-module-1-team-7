@@ -1,118 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-  </head>
-  <body>
-    <header class="hero">
-      <div class="header">
-        <h1 class="title">MAREA CODERS</h1>
-        <nav class="menu">
-          <ul class="list">
-            <li class="link link1">
-              <a href="#equipo" class="text-link">EQUIPO</a>
-            </li>
-            <li class="link link2">
-              <a href="#quienessomos" class="text-link">QUIÉNES SOMOS</a>
-            </li>
-            <li class="link">
-              <a href="./contact.html" class="text-link">CONTACTO</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <section class="container">
-      <div class="imghero">
-        <img
-          class="imagenhero"
-          src="./assets/images/IMG_0538.JPG"
-          alt="Sesión de trabajo en remoto de MAREA CODERS"
-        />
-      </div>
-    </section>
 
-    <section class="Contact">
-      <div class="Contact__divText">
-        <h1 class="Contact__divText--title">Contacto</h1>
-        <p class="Contact__divText--text">
-          Para más información, sobre las componentes de Marea Coders deje sus
-          datos y nos pondremos en contacto antes de que rompa la ola!!
-        </p>
-        <small class="Contact__divText--small"
-          >Todos los campos marcados con <label class="star">*</label> son
-          obligatorios.</small
-        >
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
 
-      <form class="Contact__form" action="/signup" method="POST">
-        <div class="Contact__form--Name">
-          <label class="fullName" for="FullName"
-            >Nombre Completo<label class="star">*</label></label
-          >
-          <input
-            class="name"
-            type="text"
-            name="Nombre Completo"
-            id="FullName"
-            placeholder="Nombre..."
-            required
-          />
-        </div>
-        <div class="Contact__form--email">
-          <label class="mail" for="emailadress"
-            >Email<label class="star">*</label></label
-          >
-          <input
-            class="adress"
-            type="email"
-            name="emailadress"
-            id="emailadress"
-            value="nombre.apellidos@mail.com"
-            required
-          />
-        </div>
-        <div class="Contact__form--telephone">
-          <label class="number" for="telephone">telephone</label>
-          <input
-            class="phonenumber"
-            type="tel"
-            name="telephone"
-            id="telephone"
-            placeholder="Ej: 123456789"
-          />
-        </div>
-        <div class="Contact__form--message">
-          <label class="message" for="Mensaje"
-            >Mensaje<label class="star">*</label></label
-          >
-          <textarea
-            class="needs"
-            id="comments"
-            name="comments"
-            rows="10"
-            cols="30"
-            placeholder="¿Qué necesitas?"
-          ></textarea>
-        </div>
-        <input class="Contact__form--buttom" type="submit" value="Enviar" />
-      </form>
-    </section>
-    <include src="./partials/footer.html"></include>
-  </body>
+<body>
+  <header class="hero">
+    <div class="header">
+      <h1 class="title"> <a class="aheader" href="./index.html">MAREA CODERS</a></h1>
+      <nav class="menu">
+
+        <ul class="list">
+          <li class="link link1">
+            <a href="./index.html#equipo" class="text-link">EQUIPO</a>
+          </li>
+          <li class="link link2">
+            <a href="./index.html#quienessomos" class="text-link">QUIÉNES SOMOS</a>
+          </li>
+          <li class="link">
+            <a href="./contact.html" class="text-link">CONTACTO</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="container">
+    <div class="imghero">
+      <img class="imagenhero" src="./assets/images/IMG_0538.JPG" alt="Sesión de trabajo en remoto de MAREA CODERS" />
+    </div>
+  </section>
+
+  <section class="Contact">
+    <div class="Contact__divText">
+      <h1 class="Contact__divText--title">Contacto</h1>
+      <p class="Contact__divText--text">
+        Para más información sobre las componentes de Marea Coders deje sus
+        datos y nos pondremos en contacto antes de que rompa la ola!!
+      </p>
+      <small class="Contact__divText--small">Todos los campos marcados con <label class="star">*</label> son
+        obligatorios.</small>
+    </div>
+
+    <form class="Contact__form" action="https://formspree.io/xwkwkqya" method="POST">
+      <div class="Contact__form--Name">
+        <label class="fullName" for="FullName">Nombre Completo<label class="star">*</label></label>
+        <input class="name" type="text" name="Nombre Completo" id="FullName" placeholder="Nombre..." required />
+      </div>
+      <div class="Contact__form--email">
+        <label class="mail" for="emailadress">Email<label class="star">*</label></label>
+        <input class="adress" type="email" name="emailadress" id="emailadress" placeholder="nombre.apellidos@mail.com"
+          required />
+      </div>
+      <div class="Contact__form--telephone">
+        <label class="number" for="telephone">teléfono</label>
+        <input class="phonenumber" type="tel" name="telephone" id="telephone" placeholder="Ej: 123456789" />
+      </div>
+      <div class="Contact__form--message">
+        <label class="message" for="Mensaje">Mensaje<label class="star">*</label></label>
+        <textarea class="needs" id="comments" name="comments" rows="10" cols="30"
+          placeholder="¿Qué necesitas?"></textarea>
+      </div>
+      <input class="Contact__form--buttom" type="submit" value="Enviar" />
+    </form>
+  </section>
+  <include src="./partials/footer.html"></include>
+</body>
+
 </html>

@@ -1,11 +1,11 @@
-@import "./core/reset.scss";
-@import "./core/variables.scss";
-@import "./layout/header.scss";
-@import "./layout/footer.scss";
-@import "./components/hero.scss";
-@import "./pages/about-us.scss";
-@import "./pages/home.scss";
-@import "./pages/contact.scss";
+@import './core/reset.scss';
+@import './core/variables.scss';
+@import './layout/header.scss';
+@import './layout/footer.scss';
+@import './components/hero.scss';
+@import './pages/about-us.scss';
+@import './pages/home.scss';
+@import './pages/contact.scss';
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +14,7 @@
 }
 
 .sociallink::after {
-  content: "·";
+  content: '·';
 }
 
 .a {
