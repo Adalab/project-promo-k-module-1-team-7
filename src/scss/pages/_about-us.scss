@@ -57,7 +57,6 @@
 
 .comp-2,
 .comp-4 {
-  text-align: right;
   margin-right: 10%;
   margin-left: 25%;
   display: grid;
@@ -192,8 +191,13 @@
   font-style: normal;
 }
 
+.nombre-2,
+.desc-2 {
+  text-align: right;
+}
+
 .rrss-2 {
-  justify-self: right;
+  justify-self: flex-end;
 }
 
 .rrss,
