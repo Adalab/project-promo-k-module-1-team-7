@@ -21,7 +21,7 @@
   align-items: center;
 }
 .Contact__divText--title {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 24px;
   line-height: 45px;
   margin-top: 30px;
@@ -38,7 +38,7 @@
   margin-left: 4.68%;
   margin-right: 4.68%;
   margin-top: 15px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   color: #54585a;
   line-height: 24px;
@@ -46,7 +46,7 @@
 }
 .Contact__divText--small {
   align-items: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 12px;
   color: #54585a;
   line-height: 24px;
@@ -54,7 +54,7 @@
 .Contact__form {
   width: 100%;
   height: 576px;
-  font-family: 'open sans';
+  font-family: "open sans";
   color: #54585a;
   font-size: 14px;
   display: flex;
@@ -79,7 +79,7 @@
 }
 
 .name {
-  font-family: 'open sans';
+  font-family: "open sans";
   color: #54585a;
   font-size: 14px;
   padding-left: 4.16%;
@@ -107,7 +107,7 @@
   text-transform: capitalize;
 }
 .adress {
-  font-family: 'open sans';
+  font-family: "open sans";
   color: #54585a;
   font-size: 14px;
   padding-left: 4.16%;
@@ -133,7 +133,7 @@
   text-transform: capitalize;
 }
 .phonenumber {
-  font-family: 'open sans';
+  font-family: "open sans";
   color: #54585a;
   font-size: 14px;
   padding-left: 4.16%;
@@ -161,7 +161,7 @@
   text-transform: capitalize;
 }
 .needs {
-  font-family: 'open sans';
+  font-family: "open sans";
   color: #54585a;
   font-size: 14px;
   padding-left: 4.16%;
@@ -187,10 +187,11 @@
   border-radius: 4px;
   display: block;
   background-color: #099d8d;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   color: white;
   box-shadow: none;
+  border-color: #099d8d;
 }
 .star {
   color: #14d9c4;
@@ -220,6 +221,7 @@
     line-height: 45px;
     margin-right: 0px;
     margin-left: 49.28%;
+    justify-self: flex-end;
   }
 }
 @media all and (min-width: 1200px) {
@@ -227,6 +229,9 @@
     width: auto;
     margin-left: 24.91%;
     margin-right: 24.91%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .Contact__divText {
     height: 156px;
@@ -263,7 +268,7 @@
   }
 
   .name {
-    font-family: 'open sans';
+    font-family: "open sans";
     color: #54585a;
     margin: 0px;
     padding: 0px;
@@ -271,6 +276,7 @@
     height: 45px;
     width: 100%;
     margin-bottom: 7px;
+    padding-left: 15px;
   }
   .name::placeholder {
     color: #b8b8b9;
@@ -293,7 +299,7 @@
     text-transform: capitalize;
   }
   .adress {
-    font-family: 'open sans';
+    font-family: "open sans";
     color: #54585a;
     font-size: 14px;
     height: 45px;
@@ -303,6 +309,7 @@
     margin: 0px;
     padding: 0px;
     margin-bottom: 7px;
+    padding-left: 15px;
   }
   .Contact__form--telephone {
     width: 162px;
@@ -321,7 +328,7 @@
     text-transform: capitalize;
   }
   .phonenumber {
-    font-family: 'open sans';
+    font-family: "open sans";
     color: #54585a;
     font-size: 14px;
     height: 45px;
@@ -329,6 +336,7 @@
     margin: 0px;
     padding: 0px;
     margin-bottom: 7px;
+    padding-left: 15px;
   }
   .phonenumber::placeholder {
     color: #b8b8b9;
@@ -350,7 +358,7 @@
     text-transform: capitalize;
   }
   .needs {
-    font-family: 'open sans';
+    font-family: "open sans";
     color: #54585a;
     font-size: 14px;
     margin: 0px;
@@ -359,6 +367,8 @@
 
     height: 105px;
     width: 100%;
+    padding-left: 15px;
+    padding-top: 10px;
   }
   .needs::placeholder {
     color: #b8b8b9;
@@ -373,7 +383,7 @@
     border-radius: 4px;
     display: block;
     background-color: #099d8d;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     color: white;
   }
