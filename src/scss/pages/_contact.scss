@@ -190,6 +190,7 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: white;
+  box-shadow: none;
 }
 .star {
   color: #14d9c4;
@@ -224,7 +225,6 @@
 @media all and (min-width: 1200px) {
   .Contact {
     width: auto;
-    height: 753px;
     margin-left: 24.91%;
     margin-right: 24.91%;
   }
@@ -241,16 +241,17 @@
   }
   .Contact__form {
     max-width: 601px;
-    // height: 373px;
+    height: 373px;
     margin-bottom: 120px;
     display: grid;
     grid-template-columns: 2;
     grid-template-rows: 4;
-    grid-template-areas: ;
   }
   .Contact__form--Name {
-    widows: 100%;
+    margin-top: 0px;
+    width: 100%;
     grid-column: 1/3;
+    display: inline-block;
     // margin-top: 58px;
   }
   .fullName {
@@ -259,8 +260,6 @@
     margin: 0px;
     padding: 0px;
     margin-bottom: 7px;
-    margin-left: 4.6%;
-    margin-right: 54.37%;
   }
 
   .name {
@@ -270,7 +269,8 @@
     padding: 0px;
     font-size: 14px;
     height: 45px;
-    width: 90.62%;
+    width: 100%;
+    margin-bottom: 7px;
   }
   .name::placeholder {
     color: #b8b8b9;
@@ -282,7 +282,7 @@
     margin-top: 13px;
     grid-column: 1/2;
     grid-row: 2/3;
-    grid-gap: 44px;
+    display: inline-block;
   }
   .mail {
     width: 131px;
@@ -299,9 +299,10 @@
     height: 45px;
     margin: 0px;
     padding: 0px;
-    width: 90.62%;
+    width: 100%;
     margin: 0px;
     padding: 0px;
+    margin-bottom: 7px;
   }
   .Contact__form--telephone {
     width: 162px;
@@ -309,6 +310,7 @@
     grid-column: 2/3;
     grid-row: 2/3;
     justify-self: right;
+    display: inline-block;
   }
   .number {
     width: 131px;
@@ -316,7 +318,6 @@
     margin: 0px;
     padding: 0px;
     margin-bottom: 7px;
-
     text-transform: capitalize;
   }
   .phonenumber {
@@ -324,9 +325,10 @@
     color: #54585a;
     font-size: 14px;
     height: 45px;
-    width: 90.62%;
+    width: 100%;
     margin: 0px;
     padding: 0px;
+    margin-bottom: 7px;
   }
   .phonenumber::placeholder {
     color: #b8b8b9;
@@ -335,6 +337,8 @@
     width: auto;
     grid-column: 1/3;
     grid-row: 3/4;
+    display: inline-block;
+    margin-top: 13px;
   }
   .message {
     width: 131px;
@@ -352,19 +356,18 @@
     margin: 0px;
     padding: 0px;
     margin-bottom: 30px;
-    padding-top: 11px;
+
     height: 105px;
-    width: 90.62%;
+    width: 100%;
   }
   .needs::placeholder {
     color: #b8b8b9;
   }
   .Contact__form--buttom {
     width: 278px;
-    grid-column: 2/3;
+    grid-column: 1/3;
+    justify-self: right;
     grid-row: 4/5;
-    margin-left: 4.68%;
-    margin-right: 4.68%;
     margin-top: 30px;
     margin-bottom: 60px;
     border-radius: 4px;
