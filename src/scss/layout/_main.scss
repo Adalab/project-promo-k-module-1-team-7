@@ -1,4 +1,4 @@
-.qualities {
+.main__qualities {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -23,8 +23,8 @@
     padding-left: 4.68%;
   }
 }
-.qualities__strenghts,
-.qualities__weaknesses {
+.main__qualities--strenghts,
+.main__qualities--weaknesses {
   width: 50%;
   font-size: 16px;
   line-height: 1.5;
@@ -39,7 +39,7 @@
     text-align: center;
   }
 }
-.triangle {
+.main__qualities--triangle {
   width: 30px;
   height: 30px;
   position: absolute;
@@ -50,7 +50,7 @@
   background-color: white;
   top: -15px;
 }
-.qualities__weaknesses {
+.main__qualities--weaknesses {
   margin-top: 45px;
   margin-right: 11.5%;
   margin-left: 3.75%;
@@ -65,7 +65,7 @@
     width: 100%;
   }
 }
-.qualities__strenghts {
+.main__qualities--strenghts {
   margin-top: 45px;
   margin-right: 3.75%;
   margin-left: 11.5%;
@@ -82,8 +82,8 @@
   }
 }
 
-.qualities__strenghtsTitle,
-.qualities__weaknessesTitle {
+.main__qualities--strenghtsTitle,
+.main__qualities--weaknessesTitle {
   font-family: $fontFamilyRubik;
   font-size: 22px;
   font-weight: 500;
@@ -95,7 +95,7 @@
   color: $mainColor;
 }
 
-.teamdesc {
+.main__team {
   width: 100%;
   color: #ffffff;
   margin-top: 45px;
@@ -104,7 +104,7 @@
   }
 }
 
-.titleteamdesc {
+.main__team--title {
   height: 45px;
   text-transform: uppercase;
   font-family: $fontFamilyRubik;
@@ -118,7 +118,7 @@
   font-style: normal;
   font-stretch: normal;
 }
-.mainteamdesc {
+.main__team--text {
   width: 50%;
   opacity: 0.67;
   font-family: $fontFamilyOpen;
