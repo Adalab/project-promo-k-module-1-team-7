@@ -119,6 +119,7 @@
 .name {
   font-family: $fontFamilyOpen;
   color: #54585a;
+  border: 1px solid #b8b8b9;
   font-size: 14px;
   padding-left: 4.16%;
   margin-left: 4.6%;
@@ -162,6 +163,7 @@
 .adress {
   font-family: $fontFamilyOpen;
   color: #54585a;
+  border: 1px solid #b8b8b9;
   font-size: 14px;
   padding: 0px 6.87% 0px 4.16%;
   margin-left: 4.6%;
@@ -194,6 +196,7 @@
 .number {
   width: 131px;
   height: 19px;
+
   margin: 13px 54.37% 7px 4.6%;
   text-transform: capitalize;
   @media all and (min-width: 768px) {
@@ -205,6 +208,7 @@
   color: #54585a;
   font-size: 14px;
   padding-left: 4.16%;
+  border: 1px solid #b8b8b9;
   margin-left: 4.6%;
   height: 45px;
   width: 90.62%;
@@ -244,6 +248,7 @@
   color: #54585a;
   font-size: 14px;
   padding: 11px 0px 0px 4.16%;
+  border: 1px solid #b8b8b9;
   margin: 0px 0px 30px 4.6%;
   height: 105px;
   width: 90.62%;
@@ -265,13 +270,13 @@
   text-transform: uppercase;
   line-height: 45px;
   margin: 0px 4.68% 60px 4.68%;
+  border: none;
   border-radius: 4px;
   display: block;
   background-color: #099d8d;
   font-family: $fontFamilyOpen;
   font-size: 16px;
   color: white;
-  border-color: #099d8d;
   @media all and (min-width: 768px) {
     width: 206px;
     margin: 30px 0px 60px 0px;
