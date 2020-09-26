@@ -195,6 +195,9 @@
 .nombre-2,
 .desc-2 {
   text-align: right;
+  @media all and (max-width: 767px) {
+    text-align: center;
+  }
 }
 
 .rrss-2 {
