@@ -25,7 +25,7 @@
   </head>
 
   <body>
-    <header class="hero">
+    <header class="header">
       <div class="header__container">
         <a
           title="Marea Coders"
@@ -64,49 +64,49 @@
         </nav>
       </div>
     </header>
-    <section class="container">
+    <section class="container contact__container">
       <div class="imghero">
         <img
           title="Sesión de trabajo en remoto de Marea Coders"
-          class="imagenhero"
+          class="imagenhero contact__hero"
           src="./assets/images/IMG_0538.JPG"
           alt="Sesión de trabajo en remoto de Marea Coders"
         />
       </div>
     </section>
 
-    <section class="Contact">
-      <div class="Contact__divText">
-        <h1 class="Contact__divText--title">Contacto</h1>
-        <p class="Contact__divText--text">
+    <section class="contact">
+      <div class="contact__divText">
+        <h1 class="contact__divText--title">Contacto</h1>
+        <p class="contact__divText--text">
           Para más información sobre las componentes de Marea Coders deje sus
-          datos y nos pondremos en contacto antes de que rompa la ola!!
+          datos y nos pondremos en contacto ¡Antes de que rompa la ola!
         </p>
-        <small class="Contact__divText--small"
+        <small class="contact__divText--small"
           >Todos los campos marcados con <label class="star">*</label> son
           obligatorios.</small
         >
       </div>
 
       <form
-        class="Contact__form"
+        class="contact__form"
         action="https://formspree.io/xwkwkqya"
         method="POST"
       >
-        <div class="Contact__form--Name">
-          <label class="fullName" for="FullName"
+        <div class="contact__form--Name">
+          <label class="fullName" for="fullName"
             >Nombre Completo<label class="star">*</label></label
           >
           <input
             class="name"
             type="text"
             name="Nombre Completo"
-            id="FullName"
+            id="fullName"
             placeholder="Nombre..."
             required
           />
         </div>
-        <div class="Contact__form--email">
+        <div class="contact__form--email">
           <label class="mail" for="emailadress"
             >Email<label class="star">*</label></label
           >
@@ -119,7 +119,7 @@
             required
           />
         </div>
-        <div class="Contact__form--telephone">
+        <div class="contact__form--telephone">
           <label class="number" for="telephone">teléfono</label>
           <input
             class="phonenumber"
@@ -129,7 +129,7 @@
             placeholder="Ej: 123456789"
           />
         </div>
-        <div class="Contact__form--message">
+        <div class="contact__form--message">
           <label class="message" for="Mensaje"
             >Mensaje<label class="star">*</label></label
           >
@@ -142,7 +142,7 @@
             placeholder="¿Qué necesitas?"
           ></textarea>
         </div>
-        <input class="Contact__form--buttom" type="submit" value="Enviar" />
+        <input class="contact__form--buttom" type="submit" value="Enviar" />
       </form>
     </section>
     <include src="./partials/footer.html"></include>
