@@ -1,3 +1,16 @@
+.sociallink::after {
+  content: "·";
+}
+
+.a {
+  text-decoration: none;
+  width: 16px;
+  font-family: $fontFamilyOpen;
+  color: #54585a;
+  line-height: 30px;
+  text-align: center;
+}
+
 .main__aboutus {
   width: 100%;
   height: 100%;
