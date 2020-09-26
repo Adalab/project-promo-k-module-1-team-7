@@ -26,7 +26,6 @@
 .qualities__strenghts,
 .qualities__weaknesses {
   width: 50%;
-  /* margin: auto; */
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
@@ -35,7 +34,6 @@
   box-sizing: border-box;
   @media all and (max-width: 1199px) and (min-width: 768px) {
     width: 50%;
-    /* margin: auto; */
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
@@ -108,7 +106,8 @@
 
 .titleteamdesc {
   height: 45px;
-  font-family: $fontFamilyRubik, sans-serif;
+  text-transform: uppercase;
+  font-family: $fontFamilyRubik;
   color: $mainColor;
   font-size: 24px;
   line-height: 45px;
