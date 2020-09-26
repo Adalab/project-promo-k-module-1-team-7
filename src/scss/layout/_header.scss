@@ -1,42 +1,34 @@
 body {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 }
-.aheader {
-  color: white;
-  font-weight: 600;
-}
+
 .header {
   background-color: $mainColor;
-  color: white;
   opacity: 0.95;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   position: fixed;
   top: 0px;
-  width: 100vw;
+  width: 100%;
   z-index: 999;
   box-sizing: border-box;
   height: 60px;
   @media all and (max-width: 767px) {
     display: block;
-    top: 0px;
-    width: 100vw;
-    z-index: 999;
-    box-sizing: border-box;
     height: 105px;
   }
 }
 
 .title {
-  width: 160px;
-  height: 30px;
   font-family: $fontFamilyRubik;
+  text-transform: uppercase;
   font-size: 16px;
   font-stretch: normal;
+  font-weight: 500;
   font-style: normal;
   line-height: 1.88;
   letter-spacing: normal;
@@ -61,18 +53,14 @@ body {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   font-family: $fontFamilyRubik;
   font-size: 15px;
   padding-left: 0px;
   @media all and (max-width: 767px) {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: center;
     opacity: 0.9;
     margin-top: 6px;
   }
@@ -104,5 +92,6 @@ body {
 }
 .text-link {
   color: white;
-  font-weight: 600;
+  text-transform: uppercase;
+  font-weight: 500;
 }
