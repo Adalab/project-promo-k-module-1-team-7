@@ -1,42 +1,34 @@
 body {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 }
-.aheader {
-  color: white;
-  font-weight: 600;
-}
-.header {
+
+.header__container {
   background-color: $mainColor;
-  color: white;
   opacity: 0.95;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   position: fixed;
   top: 0px;
-  width: 100vw;
+  width: 100%;
   z-index: 999;
   box-sizing: border-box;
   height: 60px;
   @media all and (max-width: 767px) {
     display: block;
-    top: 0px;
-    width: 100vw;
-    z-index: 999;
-    box-sizing: border-box;
     height: 105px;
   }
 }
 
-.title {
-  width: 160px;
-  height: 30px;
+.header__container--title {
   font-family: $fontFamilyRubik;
+  text-transform: uppercase;
   font-size: 16px;
   font-stretch: normal;
+  font-weight: 500;
   font-style: normal;
   line-height: 1.88;
   letter-spacing: normal;
@@ -56,29 +48,25 @@ body {
   }
 }
 
-.list {
+.header__container--list {
   box-sizing: border-box;
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: nowrap;
+  justify-content: right;
   align-items: center;
   font-family: $fontFamilyRubik;
   font-size: 15px;
   padding-left: 0px;
   @media all and (max-width: 767px) {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: center;
     opacity: 0.9;
     margin-top: 6px;
   }
 }
 
-.menu {
+.header__container--menu {
   margin-right: 11.5%;
   background-color: $mainColor;
   @media all and (max-width: 1199px) and (min-width: 768px) {
@@ -89,20 +77,19 @@ body {
     padding-left: 5%;
     padding-top: 8px;
     background-color: #14d9c4;
-    box-sizing: border-box;
     margin-right: 0px;
     height: 45px;
   }
 }
 
-.link.link1,
-.link.link2 {
+.header__container--link.header__container--link1 {
   margin-right: 18px;
   @media all and (max-width: 767px) {
     margin-right: 0px;
   }
 }
-.text-link {
+.header__container--text {
   color: white;
-  font-weight: 600;
+  text-transform: uppercase;
+  font-weight: 500;
 }

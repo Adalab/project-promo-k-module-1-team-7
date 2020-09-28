@@ -1,27 +1,9 @@
-@import './core/reset.scss';
-@import './core/variables.scss';
-@import './layout/header.scss';
-@import './layout/footer.scss';
-@import './components/hero.scss';
-@import './pages/about-us.scss';
-@import './pages/home.scss';
-@import './pages/contact.scss';
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-}
-
-.sociallink::after {
-  content: '·';
-}
-
-.a {
-  text-decoration: none;
-  width: 16px;
-  font-family: $fontFamilyOpen;
-  color: #54585a;
-  line-height: 30px;
-  text-align: center;
-}
+@import "./core/reset.scss";
+@import "./core/variables.scss";
+@import "./pages/index";
+@import "./layout/header.scss";
+@import "./layout/footer.scss";
+@import "./components/hero.scss";
+@import "./layout/aboutus";
+@import "./layout/main";
+@import "./pages/contact.scss";

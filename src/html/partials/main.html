@@ -1,7 +1,7 @@
-
-  <section class="teamdesc">
-    <h1 class="titleteamdesc">EQUIPO</h1>
-    <p class="mainteamdesc">
+<main class="main">
+  <section class="main__team">
+    <h2 class="main__team--title">Equipo</h2>
+    <p class="main__team--text">
       Marea Coders es una nueva generación de programadoras web. Nuestra
       versatilidad y experiencia en distintos sectores profesionales nos aporta
       una amplia perspectiva a la hora de identificar necesidades y
@@ -9,10 +9,10 @@
       del cliente y usuario de forma eficaz y eficiente.
     </p>
   </section>
-  <section class="qualities">
-    <div class="triangle"></div>
-    <article class="qualities__strenghts">
-      <h2 class="qualities__strenghtsTitle">Fortalezas</h2>
+  <section class="main__qualities">
+    <div class="main__qualities--triangle"></div>
+    <article class="main__qualities--strenghts">
+      <h2 class="main__qualities--strenghtsTitle">Fortalezas</h2>
       <p>
         Somos un equipo versátil en el que destaca una gran capacidad de
         adaptación al cambio y, además, contamos con las herramientas y
@@ -22,8 +22,8 @@
       </p>
     </article>
 
-    <article class="qualities__weaknesses">
-      <h2 class="qualities__weaknessesTitle">Debilidades</h2>
+    <article class="main__qualities--weaknesses">
+      <h2 class="main__qualities--weaknessesTitle">Debilidades</h2>
       <p>
         Estamos empezando en el sector, sin embargo contamos con las
         herramientas, recursos, conocimientos y ganas necesarias para sacar
@@ -31,10 +31,117 @@
       </p>
     </article>
   </section>
-  <section id="quienessomos" class="aboutus">
-    <header class="headeraboutus">
-      <h1 class="titleaboutus">QUIÉNES SOMOS</h1>
-    </header>
-    <section class="components">
-      
-    
+  <section id="quienessomos" class="main__aboutus">
+    <h2 class="main__aboutus--title">Quiénes somos</h2>
+    <section class="main__aboutus--components">
+      <include
+        src="./aboutus.html"
+        name="Alejandra Calderón"
+        compdescription="Soy Trabajadora Social, profesional multifacética con gran capacidad
+    de liderazgo, trabajo en equipo y a su vez aprendizaje continuo.
+    Siempre con el objetivo de lograr resultados en cada proyecto que
+    emprendo."
+        individualclass="main__aboutus--component1"
+        card="main__aboutus--card"
+        individualpic="./assets/images/fotoB_NAlejandra.jpg"
+        imgcontainer="main__aboutus--image1"
+        socialmedia="main__aboutus--social"
+        linkgithub="https://github.com/Aleha20"
+        linklinkedin="https://www.linkedin.com/in/alejandra-calderon-sanchez-bb31021b7"
+        linkemail="alejandracsanchez7@gmail.com"
+        linktwitter="https://twitter.com/Alejand12352005"
+        compname="main__aboutus--name"
+        compdesc="main__aboutus--text"
+        alias="'Roca': Firme punto de referencia, se erosiona según las necesidades de la marea."
+      ></include>
+      <include
+        src="./aboutus.html"
+        name="Eleonora Dell'Amico"
+        compdescription=" Soy socióloga y tengo un master en recursos humanos. Me describiría
+    como una persona observadora, comprometida y versatil. Mi lema es
+    “Si estamos creciendo, siempre estaremos fuera de nuestra zona de
+    confort”, por eso he decidido meterme en el mundo del los códigos y
+    estoy lista para este gran desafío tecnológico."
+        individualclass="main__aboutus--component2"
+        card="main__aboutus--card2"
+        imgcontainer="main__aboutus--image2"
+        individualpic="./assets/images/Eleonora_Dell_Amico.png"
+        socialmedia="main__aboutus--social2"
+        linkgithub="https://github.com/EleonoraDellamico"
+        linklinkedin="https://www.linkedin.com/in/eleonora-dell-amico/"
+        linkemail="eleonoradellamico4@gmail.com"
+        linktwitter="https://twitter.com/eli_ucora"
+        compname="main__aboutus--name main__aboutus--name2"
+        compdesc="main__aboutus--text main__aboutus--text2"
+        alias="'Viento': Con su fuerza genera figuras imposibles en el código."
+      ></include>
+      <include
+        src="./aboutus.html"
+        name="Maribel Gragera"
+        compdescription="Tras 14 años trabajando como contable, en 2019 decidí dar un giro a
+    mi vida profesional y empezar a formarme en el sector IT. Este
+    cambio ha supuesto un gran reto a nivel personal y profesional.
+    Tengo ilusión y ganas de seguir creciendo en el terreno profesional
+    y aportar lo mejor de mí. Me encanta practicar deporte, los animales
+    y soy una apasionada del las bandas sonoras y compositores de música
+    new age."
+        individualclass="main__aboutus--component1"
+        card="main__aboutus--card"
+        imgcontainer="main__aboutus--image1"
+        individualpic="./assets/images/MBn.jpg"
+        socialmedia="main__aboutus--social"
+        linkgithub="https://github.com/maribelgr"
+        linklinkedin="https://www.linkedin.com/in/maría-isabel-gragera-ruiz-6aba86114"
+        linkemail="mgrageraruiz@gmail.com"
+        linktwitter="https://twitter.com/mmaribelgr"
+        compname="main__aboutus--name"
+        compdesc="main__aboutus--text"
+        alias="'Playa': Refugio del código y vigía de contracorrientes y tempestades."
+      ></include>
+      <include
+        src="./aboutus.html"
+        name="Maribel López"
+        compdescription="Soy integradora social y psicóloga especializada en Organizaciones y
+      Género. Soy una persona emprendedora con motivación para el cambio,
+      me gusta comenzar proyectos nuevos que me ilusionan y me aportan,
+      buscando aumentar mis conocimiento y habilidades. Comprometida con
+      lo social y apasionada de la musica, me adentro en el mundo de la
+      programacion como un nuevo reto para aprender, mejorar y poder
+      integrarla en el resto de nuevas iniciativas que vengan por delante."
+        individualclass="main__aboutus--component2"
+        card="main__aboutus--card2"
+        imgcontainer="main__aboutus--image2"
+        individualpic="./assets/images/maribn.jpg"
+        socialmedia="main__aboutus--social2"
+        linkgithub="https://github.com/MaribelLopezRomero/"
+        linklinkedin="https://www.linkedin.com/in/mª-isabel-lópez-romero-62614613b"
+        linkemail="maribel.romero.miv@gmail.com"
+        linktwitter="https://twitter.com/MivRomero"
+        compname="main__aboutus--name main__aboutus--name2"
+        compdesc="main__aboutus--text main__aboutus--text2"
+        alias="'Arena': Se mueve y se mece, y se vuelve a depositar donde y cuando es más necesaria. "
+      ></include>
+      <include
+        src="./aboutus.html"
+        name="Marta Rey"
+        compdescription=" Soy Graduada en Turismo y trotamundos de nacimiento. Amante de los
+      animales y aficionada al arte, en especial al dibujo digital.
+      Programar me ha encantado desde que empecé, me gusta sentirme en
+      constante aprendizaje y actualizar mis conocimientos en todos los
+      ámbitos, ¡y el código es un mundo sin fin!"
+        individualclass="main__aboutus--component1"
+        card="main__aboutus--card"
+        imgcontainer="main__aboutus--image1"
+        individualpic="./assets/images/martacuadrado.jpg"
+        socialmedia="main__aboutus--social"
+        linkgithub="https://github.com/martreyz/"
+        linklinkedin="https://www.linkedin.com/in/martareyrodriguez/?locale=es_ES"
+        linkemail="martreyz@gmail.com"
+        linktwitter="https://twitter.com/im_martreyz"
+        compname="main__aboutus--name"
+        compdesc="main__aboutus--text"
+        alias="'Corriente': Vigila que la marea esté limpia y descontaminada de merges duros y cambios sin comitear. "
+      ></include>
+    </section>
+  </section>
+</main>

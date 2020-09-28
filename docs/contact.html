@@ -3,9 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>¡Contacta con Marea Coders!</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="shortcut icon"
+      href="./assets/images/IMG_0546.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
       rel="stylesheet"
     />
     <link
@@ -18,72 +23,77 @@
     />
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
-
   <body>
-    <header class="hero">
-      <div class="header">
-        <h1 class="title">
-          <a class="aheader" href="./index.html">MAREA CODERS</a>
-        </h1>
-        <nav class="menu">
-          <ul class="list">
-            <li class="link link1">
-              <a href="./index.html#equipo" class="text-link">EQUIPO</a>
-            </li>
-            <li class="link link2">
-              <a href="./index.html#quienessomos" class="text-link"
-                >QUIÉNES SOMOS</a
+    <header class="header">
+      <div class="header__container">
+        <a
+          title="Marea Coders"
+          class="header__container--title"
+          href="./index.html"
+          >Marea Coders</a
+        >
+        <nav class="header__container--menu">
+          <ul class="header__container--list">
+            <li class="header__container--link header__container--link1">
+              <a
+                title="Ver detalle del equipo"
+                href="./index.html#equipo"
+                class="header__container--text"
+                >Equipo</a
               >
             </li>
-            <li class="link">
-              <a href="./contact.html" class="text-link">CONTACTO</a>
+            <li class="header__container--link header__container--link1">
+              <a
+                title="Ir a quiénes somos"
+                href="./index.html#quienessomos"
+                class="header__container--text"
+                >Quiénes somos</a
+              >
+            </li>
+            <li class="header__container--link">
+              <a
+                title="Ir a la página de contacto"
+                href="./contact.html"
+                class="header__container--text"
+                >Contacto</a
+              >
             </li>
           </ul>
         </nav>
       </div>
+      <div class="imghero contact__imghero"></div>
     </header>
-    <section class="container">
-      <div class="imghero">
-        <img
-          class="imagenhero"
-          src="./assets/images/IMG_0538.JPG"
-          alt="Sesión de trabajo en remoto de MAREA CODERS"
-        />
-      </div>
-    </section>
-
-    <section class="Contact">
-      <div class="Contact__divText">
-        <h1 class="Contact__divText--title">Contacto</h1>
-        <p class="Contact__divText--text">
+    <section class="contact">
+      <div class="contact__divText">
+        <h1 class="contact__divText--title">Contacto</h1>
+        <p class="contact__divText--text">
           Para más información sobre las componentes de Marea Coders deje sus
-          datos y nos pondremos en contacto antes de que rompa la ola!!
+          datos y nos pondremos en contacto ¡Antes de que rompa la ola!
         </p>
-        <small class="Contact__divText--small"
+        <small class="contact__divText--small"
           >Todos los campos marcados con <label class="star">*</label> son
           obligatorios.</small
         >
       </div>
-
       <form
-        class="Contact__form"
+        class="contact__form"
         action="https://formspree.io/xwkwkqya"
         method="POST"
       >
-        <div class="Contact__form--Name">
-          <label class="fullName" for="FullName"
+        <div class="contact__form--Name">
+          <label class="fullName" for="fullName"
             >Nombre Completo<label class="star">*</label></label
           >
           <input
             class="name"
             type="text"
             name="Nombre Completo"
-            id="FullName"
+            id="fullName"
             placeholder="Nombre..."
             required
           />
         </div>
-        <div class="Contact__form--email">
+        <div class="contact__form--email">
           <label class="mail" for="emailadress"
             >Email<label class="star">*</label></label
           >
@@ -96,7 +106,7 @@
             required
           />
         </div>
-        <div class="Contact__form--telephone">
+        <div class="contact__form--telephone">
           <label class="number" for="telephone">teléfono</label>
           <input
             class="phonenumber"
@@ -106,7 +116,7 @@
             placeholder="Ej: 123456789"
           />
         </div>
-        <div class="Contact__form--message">
+        <div class="contact__form--message">
           <label class="message" for="Mensaje"
             >Mensaje<label class="star">*</label></label
           >
@@ -119,26 +129,50 @@
             placeholder="¿Qué necesitas?"
           ></textarea>
         </div>
-        <input class="Contact__form--buttom" type="submit" value="Enviar" />
+        <input
+          title="Enviar formulario"
+          class="contact__form--buttom"
+          type="submit"
+          value="Enviar"
+        />
       </form>
     </section>
     <footer class="footer">
-      <div class="footer-1">
-        <small class="legal-text">Marea Coders © 2020 ❤︎</small>
-        <div class="logo2">
-          <img src="./assets/images/logo-adalab.png" class="png" />
+      <div class="footer__container">
+        <small class="footer__legalText">Marea Coders © 2020 ❤︎</small>
+        <div class="footer__logo">
+          <img
+            title="Logo de Adalab"
+            src="./assets/images/logo-adalab.png"
+            class="footer__logo--png"
+          />
         </div>
       </div>
-      <nav class="menu-2">
-        <ul class="list-2">
-          <li class="link-2 link1">
-            <a href="#equipo" class="text-link1">EQUIPO</a>
+      <nav class="footer__menu">
+        <ul class="footer__list">
+          <li class="footer__list--item">
+            <a
+              title="Ver detalle del equipo"
+              href="#equipo"
+              class="footer__list--text"
+              >Equipo</a
+            >
           </li>
-          <li class="link-2 link2">
-            <a href="#quienessomos" class="text-link1">QUIÉNES SOMOS</a>
+          <li class="footer__list--item">
+            <a
+              title="Ir a quiénes somos"
+              href="#quienessomos"
+              class="footer__list--text"
+              >Quiénes somos</a
+            >
           </li>
-          <li class="link-2">
-            <a href="#quienessomos" class="text-link1">CONTACTO</a>
+          <li class="footer__list--item">
+            <a
+              title="Ir a formulario de contacto"
+              href="contact.html"
+              class="footer__list--text"
+              >Contacto</a
+            >
           </li>
         </ul>
       </nav>

@@ -15,7 +15,7 @@
   }
 }
 
-.footer-1 {
+.footer__container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -29,7 +29,7 @@
   }
 }
 
-.menu-2 {
+.footer__menu {
   font-family: $fontFamilyOpen, sans-serif;
   font-size: 14px;
   line-height: 30px;
@@ -58,9 +58,12 @@
     letter-spacing: normal;
     height: 60px;
   }
+  &:hover {
+    color: #54585a;
+  }
 }
 
-.legal-text {
+.footer__legalText {
   font-family: $fontFamilyOpen;
   font-size: 14px;
   margin-top: 30px;
@@ -68,27 +71,20 @@
   color: #b8b8b9;
 }
 
-.menu-2:hover {
-  color: #54585a;
-}
-
-.list-2 {
+.footer__list {
   list-style-type: none;
   font-weight: 600;
 }
 
-.text-link1 {
+.footer__list--text {
   color: #54585a;
+  text-transform: uppercase;
   @media all and (max-width: 767px) {
     line-height: 20px;
   }
 }
 
-.logo2 .png {
-  width: 115.9px;
-  height: 45px;
-}
-.logo2 {
+.footer__logo {
   margin-top: 15px;
   @media all and (max-width: 767px) {
     position: absolute;
@@ -96,4 +92,9 @@
     margin-bottom: 45px;
     margin-top: 0;
   }
+}
+.footer__logo,
+.footer__logo--png {
+  width: 115.9px;
+  height: 45px;
 }

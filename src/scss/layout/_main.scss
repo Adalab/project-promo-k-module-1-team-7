@@ -1,0 +1,138 @@
+.main__qualities {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  background-color: rgba(184, 184, 185, 0.2);
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  height: auto;
+  min-height: 309px;
+  @media all and (max-width: 1199px) and (min-width: 768px) {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  @media all and (max-width: 767px) {
+    width: 100%;
+    padding-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-right: 4.68%;
+    padding-left: 4.68%;
+  }
+}
+.main__qualities--strenghts,
+.main__qualities--weaknesses {
+  width: 50%;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #54585a;
+  font-family: $fontFamilyOpen;
+  box-sizing: border-box;
+  @media all and (max-width: 1199px) and (min-width: 768px) {
+    width: 50%;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+  }
+}
+.main__qualities--triangle {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 0;
+  left: 0;
+  margin-left: 48%;
+  background-color: white;
+  top: -15px;
+}
+.main__qualities--weaknesses {
+  margin-top: 45px;
+  margin-right: 11.5%;
+  margin-left: 3.75%;
+  @media all and (max-width: 1199px) and (min-width: 768px) {
+    margin-top: 45px;
+    margin-left: 3.75%;
+    margin-right: 3.75%;
+  }
+  @media all and (max-width: 767px) {
+    margin: 0;
+    margin-top: 30px;
+    width: 100%;
+  }
+}
+.main__qualities--strenghts {
+  margin-top: 45px;
+  margin-right: 3.75%;
+  margin-left: 11.5%;
+  @media all and (max-width: 1199px) and (min-width: 768px) {
+    margin-top: 45px;
+    margin-bottom: 60px;
+    margin-left: 3.75%;
+    margin-right: 3.75%;
+  }
+  @media all and (max-width: 767px) {
+    margin: 0;
+    margin-top: 30px;
+    width: 100%;
+  }
+}
+
+.main__qualities--strenghtsTitle,
+.main__qualities--weaknessesTitle {
+  font-family: $fontFamilyRubik;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 45px;
+  letter-spacing: normal;
+  text-align: center;
+  color: $mainColor;
+}
+
+.main__team {
+  width: 100%;
+  color: #ffffff;
+  margin-top: 45px;
+  @media all and (max-width: 767px) {
+    margin-top: 76px;
+  }
+}
+
+.main__team--title {
+  height: 45px;
+  text-transform: uppercase;
+  font-family: $fontFamilyRubik;
+  color: $mainColor;
+  font-size: 24px;
+  line-height: 45px;
+  text-align: center;
+  margin: auto;
+  font-weight: 500;
+  letter-spacing: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+.main__team--text {
+  width: 50%;
+  opacity: 0.67;
+  font-family: $fontFamilyOpen;
+  font-size: 16px;
+  line-height: 24px;
+  color: #54585a;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 60px;
+  text-align: center;
+  @media all and (max-width: 1199px) and (min-width: 768px) {
+    width: 88.28%;
+  }
+  @media all and (max-width: 767px) {
+    width: 90%;
+  }
+}
