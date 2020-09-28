@@ -316,4 +316,8 @@
 .main__aboutus--sociallogo {
   width: 15px;
   height: 15px;
+  transition: ease transform 1s;
+  &:hover {
+    transform: scale(1.5);
+  }
 }
