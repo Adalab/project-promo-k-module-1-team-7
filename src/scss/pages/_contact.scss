@@ -21,13 +21,20 @@
   }
 }
 
-.contact__hero,
 .contact__imghero {
   height: 300px;
+  background-image: url(../images/dreambottles-mensaje-botella.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media all and (min-width: 768px) {
+    background-position-y: -200px;
+  }
   @media all and (min-width: 1200px) {
     height: 400px;
+    background-position-y: -350px;
   }
 }
+
 .contact__divText {
   height: 234px;
   margin: 0px 4.16% 0px 4.16%;
