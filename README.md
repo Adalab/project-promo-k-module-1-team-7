@@ -9,8 +9,10 @@ La web da a conocer nuestro equipo de trabajo y las habilidades adquiridas al em
 
 ### AUTORAS
 
-Eleonora Dell'Amico
-Maribel López Romero
-Marta Rey Rodríguez
-Maribel Gragera Ruiz
-Alejandra Calderón Sánchez
+<ul>
+<li>Eleonora Dell'Amico </li>
+<li>Maribel López Romero</li>
+<li>Marta Rey Rodríguez</li>
+<li>Maribel Gragera Ruiz</li>
+<li>Alejandra Calderón Sánchez</li>
+</ul>
